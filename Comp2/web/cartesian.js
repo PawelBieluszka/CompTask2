@@ -13,6 +13,7 @@ function coordinatesLine(min_x,a,b,iter,how_many_coordinates) {
         y=a*x+b;
         console.log("X: " + x);
         console.log("Y: " + y);
+
         x += iter;
 
         result += "X"+i+"="+x+ ", " + "Y"+i+"="+y+"<BR>";
